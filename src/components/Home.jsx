@@ -1,25 +1,37 @@
-import slide from "../assets/image/image.jpg";
-import img from "../assets/home/images.png";
+import imgs from "../assets/home/images.png";
 import images from "../assets/home/image.png";
+import ImageSlider, { Slide } from "react-auto-image-slider";
+import img from "../assets/action/photo_2025-01-11_10-12-17.jpg";
+import img1 from "../assets/action/photo_2025-01-15_14-51-00.jpg";
 
 const Home = () => {
   return (
     <div className="mt-[100px]">
-      <div>
-        <img
-          src={slide}
-          alt="imgaes"
-          className="h-[430px] w-[100%] object-cover object-top"
-        />
+      <div className="w-[100%] h-[600px] overflow-hidden m-auto">
+        <ImageSlider effectDelay={1000} autoPlayDelay={1000}>
+          <Slide>
+            <img src={img} alt="image" className="object-cover" />
+          </Slide>
+          <Slide>
+            <img src={img1} alt="image" className="object-cover" />
+          </Slide>
+        </ImageSlider>
+        <div className="px-[50px]">
+          <h3 className="rounded-lg p-5 font-mainfont text-center mt-[30px] text-maincolor font-semibold text-2xl style">
+            ប្រភេទម៉ូតូ
+          </h3>
+        </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative top-[-120px]">
+      <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative md:mt-[100px] top-[-120px]">
         <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[150px] mt-[70px]">
           ហាងម៉ូតូ ហេង គន្ធា
         </h1>
-        <div className="lg:px-[50px] lg:mt-[50px] lg:flex lg:flex-row lg:gap-[100px] justify-center items-center md:flex md:flex-col md:mt-[50px] 
+        <div
+          className="lg:px-[50px] lg:mt-[50px] lg:flex lg:flex-row lg:gap-[100px] justify-center items-center md:flex md:flex-col md:mt-[50px] 
         flex flex-col
-        ">
+        "
+        >
           <div className="">
             <img
               src={images}
@@ -69,7 +81,7 @@ const Home = () => {
         <div className="px-[50px] flex lg:flex-row lg:gap-[100px] md:gap-[50px] justify-center items-center md:flex-col flex-col gap-[40px] mt-[30px text-[12px]]">
           <div className="">
             <img
-              src={img}
+              src={imgs}
               alt="image"
               className="lg:w-[450px] lg:h-[500px] md:w-[350px] md:h-[400px] object-cover object-top rounded-md"
             />

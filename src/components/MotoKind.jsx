@@ -1,5 +1,4 @@
 import { useState } from "react";
-import slide from "../assets/image/image.jpg";
 import Dream from "./kind/Dream";
 import Scoopy from "./kind/Scoopy";
 import ADV from "./kind/ADV";
@@ -7,10 +6,13 @@ import Wave from "./kind/Wave";
 import Allmoto from "./kind/Allmoto";
 import Beat from "./kind/Beat";
 import Click from "./kind/Click";
+import ImageSlider, { Slide } from "react-auto-image-slider";
+import img from "../assets/action/photo_2025-01-11_10-12-17.jpg";
+import img1 from "../assets/action/photo_2025-01-15_14-51-00.jpg";
 
 const Moto = () => {
   const kind = [
-    { id: 1, name: "ALL"},
+    { id: 1, name: "ALL" },
     { id: 2, name: "DREAM" },
     { id: 3, name: "ADV" },
     { id: 4, name: "SCOOPY" },
@@ -52,20 +54,30 @@ const Moto = () => {
 
   return (
     <div className="pb-[50px] mt-[100px]">
-      <div>
-        <img
-          src={slide}
-          alt="images"
-          className="h-[430px] w-[100%] object-cover object-top"
-        />
-      </div>
-      <div className="px-[50px]">
-        <h3 className="rounded-lg p-5 font-mainfont text-center mt-[30px] text-maincolor font-semibold text-2xl style">
-          ប្រភេទម៉ូតូ
-        </h3>
+      <div className="w-[100%] h-[600px] overflow-hidden m-auto">
+        <ImageSlider
+          effectDelay={1000}
+          autoPlayDelay={1000}
+        >
+          <Slide>
+            <img src={img} alt="image" className="object-cover" />
+          </Slide>
+          <Slide>
+            <img
+              src={img1}
+              alt="image"
+              className="object-cover"
+            />
+          </Slide>
+        </ImageSlider>
+        <div className="px-[50px]">
+          <h3 className="rounded-lg p-5 font-mainfont text-center mt-[30px] text-maincolor font-semibold text-2xl style">
+            ប្រភេទម៉ូតូ
+          </h3>
+        </div>
       </div>
 
-      <div className="grid grid-cols-7 place-items-center pt-[20px] px-[120px]">
+      <div className="grid grid-cols-7 place-items-center pt-[20px] px-[120px] md:mt-[100px]">
         {kind.map(({ name, id }) => (
           <div
             onClick={() => handleClick(name)}
