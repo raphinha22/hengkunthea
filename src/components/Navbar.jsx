@@ -55,7 +55,7 @@ const Navbar = () => {
         </button>
       </nav>
       {nav && (
-        <ul className="flex items-center space-x-10">
+        <ul className="bg-black p-[20px] flex md:flex-row flex-col items-center md:space-x-10 md:gap-[0] gap-[30px]">
           {links.map(({ id, path, title }) => {
             return (
               <NavLink
