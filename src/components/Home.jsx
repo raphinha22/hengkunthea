@@ -56,7 +56,7 @@ const Home = () => {
               អតិថិជនអាចរើសយករយៈពេលបង់រំលស់បាន
             </li>
             <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
-              បង់ត្រឹមតែ 50$ 60$ 70$ 80$ ក្នុងមួយខែទៅតាមចំនួនឆ្នាំដែលបងប្អូនរើស
+              សន្សំត្រឹមតែ 8000រៀល ក្នុងមួយថ្ងៃក៏អាចរំលស់បាន
             </li>
           </div>
         </div>
