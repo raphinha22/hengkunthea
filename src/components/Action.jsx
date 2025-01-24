@@ -22,7 +22,7 @@ const Action = () => {
           className="h-[430px] w-[100%] object-cover object-top"
         />
       </div>
-      <h1 className="text-center mt-[150px] text-3xl font-mainfont">កម្រងរូបភាព</h1>
+      <h1 className="text-center mt-[100px] text-3xl font-mainfont">កម្រងរូបភាព</h1>
 
       <div className="relative top-[-150px] grid grid-cols-[repeat(7,200px)] grid-rows-[repeat(9,200px)] justify-center gap-2 Action">
         <div className="overflow-hidden"><img src={img} alt="images" className="mt-[-60px]" /></div>
