@@ -48,7 +48,7 @@ const Home = () => {
         flex flex-col
         "
         >
-          <div className="z-[999]">
+          <div className="z-[99]">
             <img
               src={images}
               alt="image"
