@@ -40,7 +40,7 @@ const Home = () => {
             <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               ឯកសារងាយស្រួល{" "}
               <span className="md:text-[15px] text-[11px]">
-                ( អត្តសញ្ញាណប័ណ្ណ និង សៀវភៅគ្រួសារ )
+                (អត្តសញ្ញាណប័ណ្ណ និង សៀវភៅគ្រួសារ)
               </span>
             </li>
             <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
