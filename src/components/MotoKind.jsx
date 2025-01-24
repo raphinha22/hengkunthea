@@ -9,6 +9,8 @@ import Click from "./kind/Click";
 import ImageSlider, { Slide } from "react-auto-image-slider";
 import img from "../assets/action/photo_2025-01-11_10-12-17.jpg";
 import img1 from "../assets/action/photo_2025-01-15_14-51-00.jpg";
+import poster1 from "../assets/poster/poster1.png";
+import poster2 from "../assets/poster/poster2.png";
 
 const Moto = () => {
   const kind = [
@@ -54,37 +56,44 @@ const Moto = () => {
 
   return (
     <div className="pb-[50px] mt-[100px]">
-      <div className="w-[100%] h-[600px] overflow-hidden m-auto">
-        <ImageSlider
-          effectDelay={1000}
-          autoPlayDelay={1000}
-        >
+      <div className="w-[100%] h-[600px] overflow-hidden m-auto md:block hidden">
+        <ImageSlider effectDelay={1000} autoPlayDelay={1000}>
           <Slide>
             <img src={img} alt="image" className="object-cover" />
           </Slide>
           <Slide>
+            <img src={img1} alt="image" className="object-cover" />
+          </Slide>
+        </ImageSlider>
+      </div>
+
+      <div className="w-[100%] h-[450px] overflow-hidden m-auto md:hidden block">
+        <ImageSlider effectDelay={1000} autoPlayDelay={1500}>
+          <Slide>
             <img
-              src={img1}
+              src={poster1}
               alt="image"
-              className="object-cover"
+              className="object-contain mt-[-175px]"
+            />
+          </Slide>
+          <Slide>
+            <img
+              src={poster2}
+              alt="image"
+              className="object-contain mt-[-175px]"
             />
           </Slide>
         </ImageSlider>
-        <div className="px-[50px]">
-          <h3 className="rounded-lg p-5 font-mainfont text-center mt-[30px] text-maincolor font-semibold text-2xl style">
-            ប្រភេទម៉ូតូ
-          </h3>
-        </div>
       </div>
 
-      <div className="grid grid-cols-7 place-items-center pt-[20px] px-[120px] md:mt-[100px]">
+      <div className="grid md:grid-cols-7 place-items-center grid-cols-3 pt-[20px] px-[50px] md:mt-[100px] gap-[10px]">
         {kind.map(({ name, id }) => (
           <div
             onClick={() => handleClick(name)}
             key={id}
-            className="border-2 border-[#4c62bb] px-[20px] py-[10px] w-[150px] rounded-xl cursor-pointer hover:bg-[gold] hover:border-none duration-300 ease-in-out group"
+            className="border-2 border-[#4c62bb] p-[10px] md:w-[150px] w-[80px] rounded-xl cursor-pointer hover:bg-[gold] hover:border-none duration-300 ease-in-out group"
           >
-            <h4 className="group-hover:text-white duration-300 ease-in-out text-center font-serif text-maincolor text-[18px]">
+            <h4 className="group-hover:text-white duration-300 ease-in-out text-center font-serif text-maincolor md:text-[18px] text-[10px]">
               {name}
             </h4>
           </div>

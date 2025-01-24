@@ -3,11 +3,13 @@ import images from "../assets/home/image.png";
 import ImageSlider, { Slide } from "react-auto-image-slider";
 import img from "../assets/action/photo_2025-01-11_10-12-17.jpg";
 import img1 from "../assets/action/photo_2025-01-15_14-51-00.jpg";
+import poster1 from "../assets/poster/poster1.png";
+import poster2 from "../assets/poster/poster2.png";
 
 const Home = () => {
   return (
     <div className="mt-[100px]">
-      <div className="w-[100%] h-[600px] overflow-hidden m-auto">
+      <div className="w-[100%] h-[600px] overflow-hidden m-auto md:block hidden">
         <ImageSlider effectDelay={1000} autoPlayDelay={1000}>
           <Slide>
             <img src={img} alt="image" className="object-cover" />
@@ -16,11 +18,25 @@ const Home = () => {
             <img src={img1} alt="image" className="object-cover" />
           </Slide>
         </ImageSlider>
-        <div className="px-[50px]">
-          <h3 className="rounded-lg p-5 font-mainfont text-center mt-[30px] text-maincolor font-semibold text-2xl style">
-            ប្រភេទម៉ូតូ
-          </h3>
-        </div>
+      </div>
+
+      <div className="w-[100%] h-[450px] overflow-hidden m-auto md:hidden block z-[-99]">
+        <ImageSlider effectDelay={1000} autoPlayDelay={2000}>
+          <Slide>
+            <img
+              src={poster1}
+              alt="image"
+              className="object-contain mt-[-175px]"
+            />
+          </Slide>
+          <Slide>
+            <img
+              src={poster2}
+              alt="image"
+              className="object-contain mt-[-175px]"
+            />
+          </Slide>
+        </ImageSlider>
       </div>
 
       <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative md:mt-[100px] top-[-120px]">
@@ -32,7 +48,7 @@ const Home = () => {
         flex flex-col
         "
         >
-          <div className="">
+          <div className="z-[999]">
             <img
               src={images}
               alt="image"

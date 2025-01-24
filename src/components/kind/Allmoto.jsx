@@ -1,7 +1,7 @@
 import all from "../all"
 const Allmoto = () => {
   return (
-    <div className="grid grid-cols-4 gap-5 mt-[50px] px-[50px]">
+    <div className="grid md:grid-cols-4 grid-cols-2 gap-5 mt-[50px] md:px-[50px] px-[20px]">
       {all.map(({ image, text, id }) => {
         return (
           <div
@@ -13,7 +13,7 @@ const Allmoto = () => {
               alt="moto"
               className="w-[300px] group-hover:scale-[1.1] duration-300 ease-in"
             />
-            <h4 className="text-center font-bold text-2xl p-5 text-maincolor font-secondfont">
+            <h4 className="text-center font-bold md:text-2xl text-xl p-5 text-maincolor font-secondfont">
               {text}
             </h4>
           </div>
