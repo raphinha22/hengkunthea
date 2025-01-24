@@ -13,56 +13,56 @@ const Home = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center justify-center h-[100vh]">
+      <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative top-[-120px]">
         <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[150px]">
           ហាងម៉ូតូ ហេង គន្ធា
         </h1>
         <div className="lg:px-[50px] lg:mt-[50px] lg:flex lg:flex-row lg:gap-[100px] justify-center items-center md:flex md:flex-col md:mt-[50px] 
-        flex flex-col 
+        flex flex-col
         ">
           <div className="">
             <img
               src={images}
               alt="image"
-              className="lg:w-[450px] lg:h-[500px] object-cover object-top rounded-md md:w-[300px] md:h-[350px]"
+              className="lg:w-[450px] lg:h-[500px] object-cover object-top rounded-md md:w-[300px] md:h-[350px] w-[250px] h-[300px]"
             />
           </div>
           <div className="flex flex-col gap-[20px]">
-            <h1 className="font-mainfont font-bold lg:text-2xl text-maincolor md:text-xl md:text-center md:mt-[40px]">
+            <h1 className="font-mainfont font-bold lg:text-2xl text-maincolor md:text-xl md:text-center md:mt-[40px] text-center mt-[30px]">
               អំពីហាងម៉ូតូ <span className="text-red-500">ហេង គន្ធា</span>
             </h1>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               បង់រំលស់សុទ្ធ 100%
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               មិនត្រូវការលុយកក់មុន
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               ឯកសារងាយស្រួល{" "}
-              <span className="text-[15px]">
+              <span className="md:text-[15px] text-[11px]">
                 ( អត្តសញ្ញាណប័ណ្ណ និង សៀវភៅគ្រួសារ )
               </span>
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               អត្រាការប្រាក់ទាប ត្រឹមតែ 1.2%
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               បង់រំលស់បានគ្រប់ប្រភេទម៉ូតូទាំងអស់
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               អាចធ្វើការបង់ផ្តាច់ចាប់ពី 6 ខែឡើងទៅ
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               អតិថិជនអាចរើសយករយៈពេលបង់រំលស់បាន
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               បង់ត្រឹមតែ 50$ 60$ 70$ 80$ ក្នុងមួយខែទៅតាមចំនួនឆ្នាំដែលបងប្អូនរើស
             </li>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center h-[100vh] md:mt-[150px] md:gap-10">
+      <div className="flex flex-col items-center justify-center h-[100vh] md:mt-[150px] lg:mt-[0px] md:gap-10">
         <h1 className="lg:mb-[40px] font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl">
           អំពីការប្រមូលសិន
         </h1>
