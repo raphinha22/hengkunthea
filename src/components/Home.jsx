@@ -14,7 +14,7 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative top-[-120px]">
-        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[150px]">
+        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[150px] mt-[70px]">
           ហាងម៉ូតូ ហេង គន្ធា
         </h1>
         <div className="lg:px-[50px] lg:mt-[50px] lg:flex lg:flex-row lg:gap-[100px] justify-center items-center md:flex md:flex-col md:mt-[50px] 
@@ -62,11 +62,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center h-[100vh] md:mt-[150px] lg:mt-[0px] md:gap-10">
+      <div className="flex flex-col items-center justify-center h-[100vh] md:mt-[150px] lg:mt-[0px] md:gap-10 gap-[40px] mt-[100px]">
         <h1 className="lg:mb-[40px] font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl">
           អំពីការប្រមូលសិន
         </h1>
-        <div className="px-[50px] flex lg:flex-row lg:gap-[100px] md:gap-[50px] justify-center items-center md:flex-col">
+        <div className="px-[50px] flex lg:flex-row lg:gap-[100px] md:gap-[50px] justify-center items-center md:flex-col flex-col gap-[40px] mt-[30px text-[12px]]">
           <div className="">
             <img
               src={img}
@@ -78,14 +78,14 @@ const Home = () => {
             <h1 className="font-mainfont font-bold lg:text-2xl md:text-xl text-maincolor">
               មានប្រមូលសិនជា <span className="text-red-500">ពិសេស</span>
             </h1>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               ថែមជាមួយ <span className="text-red-500">ទូរស័ព្ទដៃ</span>{" "}
               ចំនួនមួយគ្រឿង
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               ថែមជាមួយទឹកប្រាក់ចំនួន <span className="text-red-500">100$</span>
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
               ថែមជាមួយកាដូចំនួន<span className="text-red-500"> 18 មុខ </span>
               ផ្សេងទៀត
             </li>
