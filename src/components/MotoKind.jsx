@@ -86,12 +86,12 @@ const Moto = () => {
         </ImageSlider>
       </div>
 
-      <div className="grid md:grid-cols-7 place-items-center grid-cols-3 pt-[20px] px-[50px] md:mt-[100px] mt-[-20px] gap-[10px]">
+      <div className="grid md:grid-cols-7 place-items-center grid-cols-4 pt-[20px] px-[50px] md:mt-[100px] mt-[-100px] gap-[10px] z-[2]">
         {kind.map(({ name, id }) => (
           <div
             onClick={() => handleClick(name)}
             key={id}
-            className="border-2 border-[#4c62bb] p-[10px] md:w-[150px] w-[80px] rounded-xl cursor-pointer hover:bg-[gold] hover:border-none duration-300 ease-in-out group"
+            className="border-2 border-[#4c62bb] p-[10px] md:w-[150px] w-[60px] rounded-xl cursor-pointer hover:bg-[gold] hover:border-none duration-300 ease-in-out group"
           >
             <h4 className="group-hover:text-white duration-300 ease-in-out text-center font-serif text-maincolor md:text-[18px] text-[10px]">
               {name}
