@@ -67,7 +67,7 @@ const Moto = () => {
         </ImageSlider>
       </div>
 
-      <div className="w-[100%] h-[450px] overflow-hidden m-auto md:hidden block">
+      <div className="w-[100%] h-[450px] overflow-hidden m-auto md:hidden block z-[-1]">
         <ImageSlider effectDelay={1000} autoPlayDelay={1500}>
           <Slide>
             <img
@@ -86,7 +86,7 @@ const Moto = () => {
         </ImageSlider>
       </div>
 
-      <div className="grid md:grid-cols-7 place-items-center grid-cols-3 pt-[20px] px-[50px] md:mt-[100px] gap-[10px]">
+      <div className="grid md:grid-cols-7 place-items-center grid-cols-3 pt-[20px] px-[50px] md:mt-[100px] mt-[-20px] gap-[10px]">
         {kind.map(({ name, id }) => (
           <div
             onClick={() => handleClick(name)}

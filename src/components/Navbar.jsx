@@ -34,7 +34,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-[99]">
+    <div className="fixed top-0 left-0 right-0 z-[999]">
       <nav className="flex items-center justify-between px-[50px] h-[100px] bg-[#4c62bb]">
         <img src={logo} alt="" className="md:w-[80px] w-[50px]" />
         <ul className="flex items-center space-x-10">

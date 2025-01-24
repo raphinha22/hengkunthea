@@ -1,12 +1,12 @@
 import all from "../all"
 const Allmoto = () => {
   return (
-    <div className="grid md:grid-cols-4 grid-cols-2 gap-5 mt-[50px] md:px-[50px] px-[20px]">
+    <div className="grid md:grid-cols-4 grid-cols-2 gap-[10px] md:px-[50px] px-[20px]">
       {all.map(({ image, text, id }) => {
         return (
           <div
             key={id}
-            className="group border border-[green] rounded-lg overflow-hidden cursor-pointer"
+            className="group border bg-white border-[green] rounded-lg overflow-hidden cursor-pointer z-[99]"
           >
             <img
               src={image}
