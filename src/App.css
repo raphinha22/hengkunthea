@@ -5,7 +5,7 @@ nav ul a.active{
   color: #979797;
 }
 
-.Action div:first-child{
+/* .Action div:first-child{
   grid-area: 2 / 1 / 4 / 3;
 }
 
@@ -51,7 +51,7 @@ nav ul a.active{
 
 .Action div:nth-child(12){
   grid-area: 6 / 6 / 8 / 8;
-}
+} */
 
 .Action div:nth-child(13){
   grid-area: 8 / 6 / 10 / 8;
