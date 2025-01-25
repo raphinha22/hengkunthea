@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mainfont: ["Freehand", "serif"], 
-        secondfont: ["Ga Maamli", "serif"], 
+        mainfont: ["Ubuntu", "serif"], 
       },
       colors: {
         maincolor: "#4b4b4b", 
