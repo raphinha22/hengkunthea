@@ -1,9 +1,12 @@
 import poster1 from "../assets/poster/poster1.png";
 import poster2 from "../assets/poster/poster2.png";
+import poster3 from "../assets/poster/poster3.png";
+import poster4 from "../assets/poster/poster4.png";
 import ImageSlider, { Slide } from "react-auto-image-slider";
 import img from "../assets/action/photo_2025-01-11_10-12-17.jpg";
 import img1 from "../assets/action/photo_2025-01-15_14-51-00.jpg";
 import profile from "../assets/profile/image.png";
+
 const Team = () => {
   return (
     <div className="mt-[100px]">
@@ -19,7 +22,7 @@ const Team = () => {
       </div>
 
       <div className="w-[100%] h-[450px] overflow-hidden m-auto md:hidden block z-[-99]">
-        <ImageSlider effectDelay={1000} autoPlayDelay={2000}>
+        <ImageSlider effectDelay={1000} autoPlayDelay={3000}>
           <Slide>
             <img
               src={poster1}
@@ -30,6 +33,20 @@ const Team = () => {
           <Slide>
             <img
               src={poster2}
+              alt="image"
+              className="object-contain mt-[-175px]"
+            />
+          </Slide>
+          <Slide>
+            <img
+              src={poster3}
+              alt="image"
+              className="object-contain mt-[-175px]"
+            />
+          </Slide>
+          <Slide>
+            <img
+              src={poster4}
               alt="image"
               className="object-contain mt-[-175px]"
             />

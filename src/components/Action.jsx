@@ -15,7 +15,8 @@ import poster2 from "../assets/poster/poster2.png";
 import ImageSlider, { Slide } from "react-auto-image-slider";
 import img from "../assets/action/photo_2025-01-11_10-12-17.jpg";
 import img1 from "../assets/action/photo_2025-01-15_14-51-00.jpg";
-
+import poster3 from "../assets/poster/poster3.png";
+import poster4 from "../assets/poster/poster4.png";
 
 const Action = () => {
   return (
@@ -32,7 +33,7 @@ const Action = () => {
       </div>
 
       <div className="w-[100%] h-[450px] overflow-hidden m-auto md:hidden block z-[-99]">
-        <ImageSlider effectDelay={1000} autoPlayDelay={2000}>
+        <ImageSlider effectDelay={1000} autoPlayDelay={3000}>
           <Slide>
             <img
               src={poster1}
@@ -47,23 +48,111 @@ const Action = () => {
               className="object-contain mt-[-175px]"
             />
           </Slide>
+          <Slide>
+            <img
+              src={poster3}
+              alt="image"
+              className="object-contain mt-[-175px]"
+            />
+          </Slide>
+          <Slide>
+            <img
+              src={poster4}
+              alt="image"
+              className="object-contain mt-[-175px]"
+            />
+          </Slide>
         </ImageSlider>
       </div>
-      <h1 className="text-center md:mt-[100px] mt-[20px] md:text-3xl text-xl font-mainfont">កម្រងរូបភាព</h1>
+      <h1 className="text-center md:mt-[100px] mt-[20px] md:text-3xl text-xl font-mainfont">
+        កម្រងរូបភាព
+      </h1>
 
       <div className="mt-[50px] grid md:grid-cols-4 grid-cols-2 gap-2 p-[10px]">
-        <div className="overflow-hidden z-[99]"><img src={imgss} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={pic2} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={pic3} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={pic8} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={pic7} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={imgs} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={pic6} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={pic0} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover" /></div>
-        <div className="overflow-hidden z-[99]"><img src={pic1} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"/></div>
-        <div className="overflow-hidden z-[99]"><img src={pic4} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"/></div>
-        <div className="overflow-hidden z-[99]"><img src={pic5} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"/></div>
-        <div className="overflow-hidden z-[99]"><img src={pic9} alt="images" className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"/></div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={imgss}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic2}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic3}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic8}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic7}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={imgs}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic6}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic0}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic1}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic4}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic5}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
+        <div className="overflow-hidden z-[99]">
+          <img
+            src={pic9}
+            alt="images"
+            className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
+          />
+        </div>
       </div>
     </div>
   );
