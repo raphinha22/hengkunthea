@@ -56,7 +56,7 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative md:mt-[100px] top-[-120px]">
-        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[150px] mt-[70px]">
+        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[150px] mt-[40px]">
           ហាងម៉ូតូ ហេង គន្ធា
         </h1>
         <div
