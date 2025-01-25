@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/image/LOGO HKT RED.png";
 import { useState } from "react";
 import {X, Menu} from "lucide-react";
@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-[999]">
       <nav className="flex items-center justify-between px-[50px] h-[100px] bg-[#4c62bb]">
-        <img src={logo} alt="" className="md:w-[80px] w-[50px]" />
+        <Link to={"/"}><img src={logo} alt="" className="md:w-[80px] w-[50px]" /></Link>
         <ul className="flex items-center space-x-10">
           {links.map(({ id, path, title }) => {
             return (
