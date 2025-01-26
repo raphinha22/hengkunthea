@@ -60,12 +60,12 @@ const Team = () => {
         <p className="text-center font-mainfont md:text-[20px] mb-[10px] text-[12px]">សេវាកម្មរហ័សទាន់ចិត្ត ផ្តល់ទំនុកចិត្តខ្ពស់ដល់លោកអ្នក បុគ្គលិកមានភាពរួសរាយ ព្យាយាមជួយលោកអ្នកអស់ពីចិត្ត</p>
         <div className="flex md:flex-row flex-col justify-center items-center gap-[20px]">
           <div className="md:w-[350px] w-[300px] h-[300px] flex flex-col items-center justify-center gap-4 bg-[#4c62bb] p-[10px] rounded-lg shadow-black shadow-md z-[99]">
-            <img src={icon1} className="w-[70px]" alt="image" />
+            <a href="https://maps.google.com/maps?q=11.552086,104.915761&ll=11.552086,104.915761&z=16"><img src={icon2} className="w-[70px]" alt="image" /></a>
             <h3 className="text-center font-mainfont md:text-[22px] text-white font-bold text-[12px]">ទីតាំងរបស់យើង</h3>
             <p className="text-center font-mainfont text-sm/8 md:text-[18px] text-white text-[12px]">ផ្ទះលេខ 300-302 ផ្លូវ 274 សង្កាត់អូឡាំពិក ខណ្ឌបឹងកេងកង់ រាជធានីភ្នំពេញ</p>
           </div>
           <div className="md:w-[350px] w-[300px] h-[300px] flex flex-col items-center justify-center gap-4 bg-[#4c62bb] p-[10px] rounded-lg shadow-black shadow-md z-[99]">
-            <img src={icon2} className="w-[70px]" alt="image" />
+            <img src={icon1} className="w-[70px]" alt="image" />
             <h3 className="text-center font-mainfont md:text-[22px] text-white font-bold text-[12px]">ម៉ោង និងថ្ងៃធ្វើការ</h3>
             <p className="text-center font-mainfont md:text-[18px] text-white text-[12px]">ថ្ងៃចន្ទ ដល់ ថ្ងៃអាទិត្យ</p>
             <p className="text-center font-mainfont md:text-[18px] text-white text-[12px]">ម៉ោង 7:00ព្រឹក ដល់ 5:00ល្ងាច</p>
