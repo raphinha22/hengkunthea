@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import "./App.css";
 import MotoKind from "./components/MotoKind";
 import Action from "./components/Action";
-import Team from "./components/Team";
+import Info from "./components/Info";
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -24,8 +24,8 @@ const App = () => {
           element: <Action />,
         },
         {
-          path: "ourteam",
-          element: <Team />,
+          path: "location",
+          element: <Info />,
         },
       ],
     },

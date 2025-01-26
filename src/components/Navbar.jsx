@@ -22,8 +22,8 @@ const Navbar = () => {
     },
     {
       id: 4,
-      path: "ourteam",
-      title: "ក្រុមការងារ",
+      path: "location",
+      title: "ព័ត៌មានបន្ថែម",
     },
   ];
 
