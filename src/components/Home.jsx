@@ -32,8 +32,8 @@ const Home = () => {
     <div className="mt-[90px]">
       <div className="w-[100%] h-[600px] overflow-hidden m-auto md:block hidden">
         <ImageSlider effectDelay={1000} autoPlayDelay={1000}>
-          <Slide>
-            <img src={img} alt="image" className="object-cover" />
+          <Slide>sm:
+           text-[11px]  <img src={img} alt="image" className="object-cover" />
           </Slide>
           <Slide>
             <img src={img1} alt="image" className="object-cover" />
@@ -77,31 +77,31 @@ const Home = () => {
             <h1 className="font-mainfont font-bold lg:text-2xl text-maincolor md:text-xl md:text-center md:mt-[40px] text-center mt-[30px]">
               អំពីហាងម៉ូតូ <span className="text-red-500">ហេង គន្ធា</span>
             </h1>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               បង់រំលស់សុទ្ធ 100%
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               មិនត្រូវការលុយកក់មុន
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               ឯកសារងាយស្រួល{" "}
-              <span className="md:text-[15px] text-[11px]">
+              <span className="md:text-[15px] text-[10px]">
                 (អត្តសញ្ញាណប័ណ្ណ និង សៀវភៅគ្រួសារ)
               </span>
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               អត្រាការប្រាក់ទាប ត្រឹមតែ 1.2%
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               បង់រំលស់បានគ្រប់ប្រភេទម៉ូតូទាំងអស់
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               អាចធ្វើការបង់ផ្តាច់ចាប់ពី 6 ខែឡើងទៅ
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               អតិថិជនអាចរើសយករយៈពេលបង់រំលស់បាន
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               សន្សំត្រឹមតែ 8000រៀល ក្នុងមួយថ្ងៃក៏អាចរំលស់បាន
             </li>
           </div>
@@ -124,14 +124,14 @@ const Home = () => {
             <h1 className="font-mainfont font-bold lg:text-2xl md:text-xl text-maincolor">
               មានប្រមូលសិនជា <span className="text-red-500">ពិសេស</span>
             </h1>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               ថែមជាមួយ <span className="text-red-500">ទូរស័ព្ទដៃ</span>{" "}
               ចំនួនមួយគ្រឿង
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               ថែមជាមួយទឹកប្រាក់ចំនួន <span className="text-red-500">100$</span>
             </li>
-            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] text-[12px]">
+            <li className="font-mainfont text-maincolor font-semibold lg:text-xl md:text-[18px] sm:text-[12px] text-[11px]">
               ថែមជាមួយកាដូចំនួន<span className="text-red-500"> 18 មុខ </span>
               ផ្សេងទៀត
             </li>
