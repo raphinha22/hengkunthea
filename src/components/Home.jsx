@@ -29,7 +29,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="mt-[60px]">
+    <div className="mt-[90px]">
       <div className="w-[100%] h-[600px] overflow-hidden m-auto md:block hidden">
         <ImageSlider effectDelay={1000} autoPlayDelay={1000}>
           <Slide>
