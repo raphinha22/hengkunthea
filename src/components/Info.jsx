@@ -57,7 +57,7 @@ const Team = () => {
         </ImageSlider>
       </div>
 
-      <div className="md:mt-[150px] mt-[60px] p-[10px]">
+      <div className="md:mt-[150px] mt-[50px] p-[10px]">
         <h2 className="text-center font-mainfont font-bold md:text-2xl text-[18px] mb-[10px] mt-[-50px]">
           ព័ត៌មានបន្ថែមពីហាង ហេង គន្ធា
         </h2>
