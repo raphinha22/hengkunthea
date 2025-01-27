@@ -9,6 +9,25 @@ import poster3 from "../assets/poster/poster3.png";
 import poster4 from "../assets/poster/poster4.png";
 
 const Home = () => {
+  const slide = [
+    {
+      id: 1,
+      img: poster1,
+    },
+    {
+      id: 2,
+      img: poster2,
+    },
+    {
+      id: 3,
+      img: poster3,
+    },
+    {
+      id: 4,
+      img: poster4,
+    },
+  ];
+
   return (
     <div className="mt-[100px]">
       <div className="w-[100%] h-[600px] overflow-hidden m-auto md:block hidden">
@@ -24,34 +43,17 @@ const Home = () => {
 
       <div className="w-[100%] h-[450px] overflow-hidden m-auto md:hidden block z-[-99]">
         <ImageSlider effectDelay={1000} autoPlayDelay={3000}>
-          <Slide>
-            <img
-              src={poster1}
-              alt="image"
-              className="object-contain mt-[-175px]"
-            />
-          </Slide>
-          <Slide>
-            <img
-              src={poster2}
-              alt="image"
-              className="object-contain mt-[-175px]"
-            />
-          </Slide>
-          <Slide>
-            <img
-              src={poster3}
-              alt="image"
-              className="object-contain mt-[-175px]"
-            />
-          </Slide>
-          <Slide>
-            <img
-              src={poster4}
-              alt="image"
-              className="object-contain mt-[-175px]"
-            />
-          </Slide>
+          {slide.map(({ id, img }) => {
+            return (
+              <Slide key={id}>
+                <img
+                  src={img}
+                  alt="image"
+                  className="object-contain mt-[-175px]"
+                />
+              </Slide>
+            );
+          })}
         </ImageSlider>
       </div>
 
