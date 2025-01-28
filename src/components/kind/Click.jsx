@@ -1,9 +1,9 @@
-import moto from "../click";
+import moto from "../all";
 
-const Wave = () => {
+const Click = () => {
   return (
     <div className="grid md:grid-cols-4 grid-cols-2 gap-[10px] md:px-[50px] px-[20px]">
-      {moto.map(({ image, text, id }) => {
+      {moto.filter(motos => motos.category == 'click').map(({ image, text, id }) => {
         return (
           <div
             key={id}
@@ -24,4 +24,4 @@ const Wave = () => {
   );
 };
 
-export default Wave;
+export default Click;

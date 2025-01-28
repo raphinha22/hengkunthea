@@ -5,6 +5,7 @@ import "./App.css";
 import MotoKind from "./components/MotoKind";
 import Action from "./components/Action";
 import Info from "./components/Info";
+import Details from "./components/Details";
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const App = () => {
         {
           path: "location",
           element: <Info />,
+        },
+        {
+          path: ":id",
+          element: <Details/>,
         },
       ],
     },

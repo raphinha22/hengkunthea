@@ -1,9 +1,9 @@
-import moto from "../beat";
+import moto from "../all";
 
-const Beat = () => {
+const ADV = () => {
   return (
     <div className="grid md:grid-cols-4 grid-cols-2 gap-[10px] md:px-[50px] px-[20px]">
-      {moto.map(({ image, text, id }) => {
+      {moto.filter(motos => motos.category == 'beat').map(({ image, text, id }) => {
         return (
           <div
             key={id}
@@ -24,4 +24,4 @@ const Beat = () => {
   );
 };
 
-export default Beat;
+export default ADV;

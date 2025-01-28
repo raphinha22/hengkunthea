@@ -1,9 +1,9 @@
-import moto from "../ADV";
+import moto from "../all";
 
 const ADV = () => {
   return (
     <div className="grid md:grid-cols-4 grid-cols-2 gap-[10px] md:px-[50px] px-[20px]">
-      {moto.map(({ image, text, id }) => {
+      {moto.filter(motos => motos.category == 'adv').map(({ image, text, id }) => {
         return (
           <div
             key={id}
