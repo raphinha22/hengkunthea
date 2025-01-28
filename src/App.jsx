@@ -5,13 +5,12 @@ import "./App.css";
 import MotoKind from "./components/MotoKind";
 import Action from "./components/Action";
 import Info from "./components/Info";
-import Details from "./components/Details";
 const App = () => {
   const router = createBrowserRouter([
     {
       element: <Layouts />,
       path: "/",
-      children: [ 
+      children: [
         {
           index: true,
           element: <Home />,
@@ -27,10 +26,6 @@ const App = () => {
         {
           path: "location",
           element: <Info />,
-        },
-        {
-          path: ":id",
-          element: <Details/>,
         },
       ],
     },
