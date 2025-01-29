@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import moto from "../all";
 
 const ADV = () => {
@@ -7,19 +8,20 @@ const ADV = () => {
         .filter((motos) => motos.category == "dream")
         .map(({ image, text, id }) => {
           return (
-            <div
-              key={id}
-              className="group border bg-white border-[green] rounded-lg overflow-hidden cursor-pointer z-[99]"
-            >
-              <img
-                src={image}
-                alt="moto"
-                className="w-[300px] group-hover:scale-[1.1] duration-300 ease-in"
-              />
-              <h4 className="text-center font-bold md:text-2xl text-xl p-5 text-maincolor font-secondfont">
-                {text}
-              </h4>
-            </div>
+            <Link
+            to={`/${id.toString()}`}
+            key={id}
+            className="group border bg-white border-[green] rounded-lg overflow-hidden cursor-pointer z-[99]"
+          >
+            <img
+              src={image}
+              alt="moto"
+              className="w-[300px] group-hover:scale-[1.1] duration-300 ease-in"
+            />
+            <h4 className="text-center font-bold md:text-2xl text-xl p-5 text-maincolor font-secondfont">
+              {text}
+            </h4>
+          </Link>
           );
         })}
     </div>
