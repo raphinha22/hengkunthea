@@ -25,7 +25,7 @@ const Details = () => {
         <img
           src={selectedImage}
           alt=""
-          className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover border rounded-lg shadow-lg"
+          className="w-[250px] h-[250px] md:w-[400px] md:h-[400px] object-cover border rounded-lg shadow-lg"
         />
         <p className="mt-4 text-lg font-semibold">{data.text}</p>
       </div>
