@@ -13,27 +13,27 @@ import poster1 from "../assets/poster/poster1.png";
 import poster2 from "../assets/poster/poster2.png";
 import poster3 from "../assets/poster/poster3.png";
 import poster4 from "../assets/poster/poster4.png";
+import PCX from "./kind/Pcx";
 
 const Moto = () => {
-
   const slide = [
-      {
-        id: 1,
-        img: poster1,
-      },
-      {
-        id: 2,
-        img: poster2,
-      },
-      {
-        id: 3,
-        img: poster3,
-      },
-      {
-        id: 4,
-        img: poster4,
-      },
-    ];
+    {
+      id: 1,
+      img: poster1,
+    },
+    {
+      id: 2,
+      img: poster2,
+    },
+    {
+      id: 3,
+      img: poster3,
+    },
+    {
+      id: 4,
+      img: poster4,
+    },
+  ];
 
   const kind = [
     { id: 1, name: "ALL" },
@@ -43,6 +43,7 @@ const Moto = () => {
     { id: 5, name: "WAVE" },
     { id: 6, name: "CLICK" },
     { id: 7, name: "BEAT" },
+    { id: 8, name: "PCX" },
   ];
 
   const [selectedMoto, setSelectedMoto] = useState(""); // Track the selected motorcycle type
@@ -67,6 +68,8 @@ const Moto = () => {
         return <Click />;
       case "BEAT":
         return <Beat />;
+      case "PCX":
+        return <PCX />;
       default:
         return (
           <h4 className="text-center">

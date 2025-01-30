@@ -15,7 +15,10 @@ import beat1 from "../assets/image/beat-red.png";
 import beat2 from "../assets/image/beat-blue.png";
 import click1 from "../assets/image/click1.png";
 import click2 from "../assets/image/click2.png";
-import click3 from "../assets/image/click3.png";
+
+import pcx1 from "../assets/image/pcx-gray.png";
+import pcx2 from "../assets/image/pcx-white.png";
+import pcx3 from "../assets/image/pcx-black.png";
 
 import dreamimg1 from "../components/dream/Front-Emblem_feature-point_.jpg";
 import dreamimg2 from "../components/dream/ម៉ានូវ៉េន_feature-point_.jpg";
@@ -224,11 +227,41 @@ const moto = [
     img3: clicks3,
     img4: clicks4,
   },
+  // {
+  //   id: 19,
+  //   category: "click",
+  //   image: click3,
+  //   text: "CLICK",
+  //   img1: clicks1,
+  //   img2: clicks2,
+  //   img3: clicks3,
+  //   img4: clicks4,
+  // },
   {
     id: 19,
-    category: "click",
-    image: click3,
-    text: "CLICK",
+    category: "pcx",
+    image: pcx1,
+    text: "PCX",
+    img1: clicks1,
+    img2: clicks2,
+    img3: clicks3,
+    img4: clicks4,
+  },
+  {
+    id: 20,
+    category: "pcx",
+    image: pcx2,
+    text: "PCX",
+    img1: clicks1,
+    img2: clicks2,
+    img3: clicks3,
+    img4: clicks4,
+  },
+  {
+    id: 21,
+    category: "pcx",
+    image: pcx3,
+    text: "PCX",
     img1: clicks1,
     img2: clicks2,
     img3: clicks3,
