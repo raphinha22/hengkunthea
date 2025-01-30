@@ -19,9 +19,9 @@ const Details = () => {
   };
 
   return (
-    <div className="py-[20px] flex flex-col items-center justify-end h-[100vh]">
+    <div className="py-[20px] flex flex-col items-center justify-center h-[100vh]">
       {/* Large Displayed Image */}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-[50px]">
         <img
           src={selectedImage}
           alt=""
