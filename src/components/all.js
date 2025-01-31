@@ -230,16 +230,6 @@ const moto = [
     img3: clicks3,
     img4: clicks4,
   },
-  // {
-  //   id: 19,
-  //   category: "click",
-  //   image: click3,
-  //   text: "CLICK",
-  //   img1: clicks1,
-  //   img2: clicks2,
-  //   img3: clicks3,
-  //   img4: clicks4,
-  // },
   {
     id: 19,
     category: "pcx",
