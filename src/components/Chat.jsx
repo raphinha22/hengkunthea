@@ -1,7 +1,7 @@
 const MessengerButton = () => {
     const openMessenger = () => {
         const message = encodeURIComponent("ខ្ញុំចង់បង់រំលស់ម៉ូតូ");
-        window.open(`https://m.me/61569537967575?ref=${message}`, "_blank");
+        window.open(`https://m.me/100055347733672?ref=${message}`, "_blank");
     };
 
     return (
