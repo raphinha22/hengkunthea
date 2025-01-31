@@ -53,6 +53,9 @@ import scoopyss3 from "../components/scoopy24/photo_2025-01-29_13-52-45.jpg";
 import scoopyss4 from "../components/scoopy24/photo_2025-01-29_13-52-46.jpg";
 import scoopyss5 from "../components/scoopy24/photo_2025-01-29_13-54-59.jpg";
 
+import pcxs1 from "../components/pcx/features_2 tones seat.png";
+import pcxs2 from "../components/pcx/Other features_charging.png";
+import pcxs3 from "../components/pcx/Other features_Tail light.png";
 
 
 
@@ -242,30 +245,27 @@ const moto = [
     category: "pcx",
     image: pcx1,
     text: "PCX",
-    img1: clicks1,
-    img2: clicks2,
-    img3: clicks3,
-    img4: clicks4,
+    img1: pcxs1,
+    img2: pcxs2,
+    img3: pcxs3,
   },
   {
     id: 20,
     category: "pcx",
     image: pcx2,
     text: "PCX",
-    img1: clicks1,
-    img2: clicks2,
-    img3: clicks3,
-    img4: clicks4,
+    img1: pcxs1,
+    img2: pcxs2,
+    img3: pcxs3,
   },
   {
     id: 21,
     category: "pcx",
     image: pcx3,
     text: "PCX",
-    img1: clicks1,
-    img2: clicks2,
-    img3: clicks3,
-    img4: clicks4,
+    img1: pcxs1,
+    img2: pcxs2,
+    img3: pcxs3,
   },
 ];
 
