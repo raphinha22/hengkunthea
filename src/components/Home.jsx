@@ -7,7 +7,6 @@ import poster1 from "../assets/poster/poster1.png";
 import poster2 from "../assets/poster/poster2.png";
 import poster3 from "../assets/poster/poster3.png";
 import poster4 from "../assets/poster/poster4.png";
-import MessengerButton from "./Chat";
 
 const Home = () => {
   const slide = [
@@ -28,6 +27,12 @@ const Home = () => {
       img: poster4,
     },
   ];
+
+  const openMessenger = () => {
+    const fbUserId = "100055347733672"; // Your Facebook User ID
+    const message = encodeURIComponent("Hello, I need support."); // Auto-filled message
+    window.open(`https://m.me/${fbUserId}?text=${message}`, "_blank");
+  };
 
   return (
     <div className="mt-[90px]">
@@ -59,7 +64,12 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative md:mt-[100px] top-[-10px]">
-        <MessengerButton />
+        <button
+          onClick={openMessenger}
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          ខ្ញុំចង់បង់រំលស់ម៉ូតូ
+        </button>
         <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[100px] mt-[40px]">
           ហាងម៉ូតូ ហេង គន្ធា
         </h1>
