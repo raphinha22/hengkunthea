@@ -7,6 +7,7 @@ import poster1 from "../assets/poster/poster1.png";
 import poster2 from "../assets/poster/poster2.png";
 import poster3 from "../assets/poster/poster3.png";
 import poster4 from "../assets/poster/poster4.png";
+import MessengerButton from "./Chat";
 
 const Home = () => {
   const slide = [
@@ -32,8 +33,8 @@ const Home = () => {
     <div className="mt-[90px]">
       <div className="w-[100%] h-[600px] overflow-hidden m-auto md:block hidden">
         <ImageSlider effectDelay={1000} autoPlayDelay={1000}>
-          <Slide>sm:
-           text-[11px]  <img src={img} alt="image" className="object-cover" />
+          <Slide>
+            <img src={img} alt="image" className="object-cover" />
           </Slide>
           <Slide>
             <img src={img1} alt="image" className="object-cover" />
@@ -57,8 +58,9 @@ const Home = () => {
         </ImageSlider>
       </div>
 
-      <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative md:mt-[100px] top-[-120px]">
-        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[150px] mt-[40px]">
+      <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative md:mt-[100px] top-[-10px]">
+        <MessengerButton />
+        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[100px] mt-[40px]">
           ហាងម៉ូតូ ហេង គន្ធា
         </h1>
         <div
