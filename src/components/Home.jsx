@@ -7,6 +7,7 @@ import poster1 from "../assets/poster/poster1.png";
 import poster2 from "../assets/poster/poster2.png";
 import poster3 from "../assets/poster/poster3.png";
 import poster4 from "../assets/poster/poster4.png";
+import sms from "../assets/image/Facebook_Messenger_logo_2020.svg.png";
 
 const Home = () => {
   const slide = [
@@ -66,11 +67,12 @@ const Home = () => {
       <div className="flex flex-col items-center justify-center h-[100vh] md:gap-[0px] gap-[20px] lg:relative md:mt-[100px] top-[-10px]">
         <button
           onClick={openMessenger}
-          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition flex items-center gap-3 justify-center mt-[50px]"
         >
-          ខ្ញុំចង់បង់រំលស់ម៉ូតូ
+          <img src={sms} alt="sms" className="w-[30px]" />
+          <h4 className="font-mainfont">ខ្ញុំចង់បង់រំលស់ម៉ូតូ</h4>
         </button>
-        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[100px] mt-[40px]">
+        <h1 className="font-mainfont lg:text-2xl font-semibold text-maincolor md:text-xl md:mt-[100px] mt-[10px]">
           ហាងម៉ូតូ ហេង គន្ធា
         </h1>
         <div
