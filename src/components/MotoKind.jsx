@@ -108,7 +108,7 @@ const Moto = () => {
         </ImageSlider>
       </div>
 
-      <div className="grid lg:grid-cols-6 xl:grid-cols-8 place-items-center grid-cols-4 md:grid-cols-4 pt-[20px] px-[50px] md:mt-[100px] gap-[10px] z-[2]">
+      <div className="grid lg:grid-cols-6 xl:grid-cols-8 place-items-center grid-cols-4 md:grid-cols-4 pt-[20px] px-[50px] md:mt-[100px] gap-[10px]">
         {kind.map(({ name, id }) => (
           <div
             onClick={() => handleClick(name)}
