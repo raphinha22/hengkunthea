@@ -30,7 +30,7 @@ const Home = () => {
   ];
 
   const openMessenger = () => {
-    const fbUserId = "100055347733672"; // Your Facebook User ID
+    const fbUserId = "100079226027402"; // Your Facebook User ID
     const message = encodeURIComponent("Hello, I need support."); // Auto-filled message
     window.open(`https://m.me/${fbUserId}?text=${message}`, "_blank");
   };
