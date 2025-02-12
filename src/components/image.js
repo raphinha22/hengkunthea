@@ -10,6 +10,14 @@ import pic8 from "../assets/action/photo_2025-01-15_14-50-47.jpg";
 import pic9 from "../assets/image/image.png";
 import pic10 from "../assets/home/image.png";
 import pic11 from "../assets/home/images.png";
+import pic12 from "../assets/action/one.jpg";
+import pic13 from "../assets/action/two.jpg";
+import pic14 from "../assets/action/three.jpg";
+import pic15 from "../assets/action/four.jpg";
+import pic16 from "../assets/action/five.jpg";
+import pic17 from "../assets/action/six.jpg";
+import pic18 from "../assets/action/seven.jpg";
+import pic19 from "../assets/action/eight.jpg";
 
 const img = [
     {
@@ -59,6 +67,38 @@ const img = [
     {
         id: 12,
         img: pic2
+    },
+    {
+        id: 13,
+        img: pic12
+    },
+    {
+        id: 14,
+        img: pic13
+    },
+    {
+        id: 15,
+        img: pic14
+    },
+    {
+        id: 16,
+        img: pic15
+    },
+    {
+        id: 17,
+        img: pic16
+    },
+    {
+        id: 18,
+        img: pic17
+    },
+    {
+        id: 19,
+        img: pic18
+    },
+    {
+        id: 20,
+        img: pic19
     },
 ]
 
