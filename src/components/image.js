@@ -18,7 +18,11 @@ import pic16 from "../assets/action/five.jpg";
 import pic17 from "../assets/action/six.jpg";
 import pic18 from "../assets/action/seven.jpg";
 import pic19 from "../assets/action/eight.jpg";
-
+import pic20 from "../assets/action/one1.jpg";
+import pic21 from "../assets/action/two2.jpg";
+import pic22 from "../assets/action/three3.jpg";
+import pic23 from "../assets/action/four4.jpg";
+import pic24 from "../assets/action/five5.jpg";
 const img = [
     {
         id: 1,
@@ -99,6 +103,26 @@ const img = [
     {
         id: 20,
         img: pic19
+    },
+    {
+        id: 21,
+        img: pic20
+    },
+    {
+        id: 22,
+        img: pic21
+    },
+    {
+        id: 23,
+        img: pic22
+    },
+    {
+        id: 24,
+        img: pic23
+    },
+    {
+        id: 25,
+        img: pic24
     },
 ]
 
