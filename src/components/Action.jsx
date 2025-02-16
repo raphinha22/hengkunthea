@@ -62,13 +62,13 @@ const Action = () => {
       <div className="mt-[50px] grid md:grid-cols-4 grid-cols-2 gap-2 p-[10px]">
         {image.map(({ id, img }) => {
           return (
-            <div className="overflow-hidden z-[99]" key={id}>
+            <a className="overflow-hidden z-[99]" href={img} key={id}>
               <img
                 src={img}
                 alt="images"
                 className="w-[400px] lg:h-[450px] md:h-[350px] sm:h-[300px] h-[250px] object-cover"
               />
-            </div>
+            </a>
           );
         })}
       </div>
